@@ -1,0 +1,13 @@
+* Shedyule 
+
+** Usage
+
+** Installation
+
+** Author
+
++ John Downs (john.downs@acm.org)
+
+** Copyright
+
+Copyright (c) 2020 John Downs (john.downs@acm.org)
