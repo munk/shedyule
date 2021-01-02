@@ -4,14 +4,12 @@
 |#
 
 (defsystem "shedyule-test"
-  :defsystem-depends-on ("prove-asdf")
   :author "John Downs"
-  :license ""
+  :license "MIT"
   :depends-on ("shedyule"
-               "prove")
+	       "rove")
   :components ((:module "tests"
-                :components
-                ((:test-file "shedyule"))))
+		:components
+		((:file "shedyule"))))
   :description "Test system for shedyule"
-
-  :perform (test-op (op c) (symbol-call :prove-asdf :run-test-system c)))
+  :perform (test-op (op c) (symbol-call :rove :run c)))
